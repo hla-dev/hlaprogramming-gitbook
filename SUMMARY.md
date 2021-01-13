@@ -14,3 +14,10 @@
 - [Data Distribution Management](ddm.md)
 - [Ownership Management](ownership-management.md)
 - [Supporting Services](supporting-services.md)
+
+## Appendix
+
+- [C++ Federate Overview](cpp-federate-overview.md)
+  - [main](cpp-federate-main.md)
+  - [Federate](cpp-federate.md)
+  - [Federate Ambassador](cpp-federate-ambassador.md)
