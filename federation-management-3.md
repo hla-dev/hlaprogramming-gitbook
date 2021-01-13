@@ -1,0 +1,1 @@
+# Federation Management - Synchronization Points
