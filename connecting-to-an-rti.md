@@ -8,7 +8,7 @@ the creation of an RTI Ambassador and the actual connection.
 1. Create an RTI Ambassador
 2. Create a Federate Ambassador
 3. Use the RTI Ambassador to 'connect' to the RTI
-4. // the rest of your code
+4. Your code
 5. Use the RTI Ambassador to 'disconnect' from the RTI
 
 ## C++
@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
         rti1516e::HLA_EVOKED
     );
 
-    // 4. the rest of your code
+    // 4. Your code
 
     // 5. Disconnect from the RTI
     rtiAmbassador->disconnect();
@@ -51,19 +51,24 @@ import hla.rti1516e.CallbackModel;
 
 public class SimulationApplication {
     public static void main(String[] args) {
+        // 1. Create an RTI Ambassador
         RtiFactory rtiFactory = RtiFactoryFactory.getRtiFactory();
         RTIambassador rtiAmbassador = rtiFactory.getRtiAmbassador();
 
+        // 2. Create a Federate Ambassador
         FederateAmbassador fedAmbassador =
             new NullFederateAmbassador();
+
+        // 3. Connect to an RTI
         rtiAmbassador.connect(
             fedAmbassador,
             CallbackModel.HLA_EVOKED,
             ""
         );
 
-        // The rest of your code
+        // 4. Your code
 
+        // 5. Disconnect from the RTI
         rtiAmbassador.disconnect();
     }
 }
