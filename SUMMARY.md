@@ -21,6 +21,12 @@
 ## Appendix
 
 - [C++ Federate Overview](cpp-federate-overview.md)
+
   - [main](cpp-federate-main.md)
   - [Federate](cpp-federate.md)
   - [Federate Ambassador](cpp-federate-ambassador.md)
+
+- [Java Federate Overview](java-federate-overview.md)
+  - [main](java-federate-main.md)
+  - [Federate](java-federate.md)
+  - [Federate Ambassador](java-federate-ambassador.md)
