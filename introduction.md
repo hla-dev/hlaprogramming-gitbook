@@ -16,10 +16,10 @@ following template:
 - Java code
 - API discussion
 
-The core chapter of this book only present C++ and Java code since these are the
-only languages that have defined APIs witihn the HLA Interface Specification. I
-am interested in developing APIs in other languages and appendices for each
-language will appear in due course.
+The core chapters of this book only present C++ and Java code since these are
+the only languages that have defined APIs witihn the HLA Interface
+Specification. I am interested in developing APIs in other languages and
+appendices for each language will appear in due course.
 
 To actually experience the code in this book you will need software that
 actually implements the APIs. This software is known as a Runtime Infrastructure
@@ -42,3 +42,12 @@ these RTIs.
 TODO: Provide some context --- federation, federate, RTI, Ambassadors, Object
 Model, User Code --- and restate that this book focusses on the Ambassador
 interfaces.
+
+## Learning HLA
+
+If you're interested in a more holistic introduction to the HLA, there are a few
+references that you might follow up on:
+
+- [HLA Tutorial](http://pitchtechnologies.com/hlatutorial/)
+- [Guide to Distributed Simulation with HLA](https://www.springer.com/gp/book/9783319612669)
+- [Creating Computer Simulation Systems: An Introduction to the High Level Architecture](https://www.amazon.com/Creating-Computer-Simulation-Systems-Introduction/dp/0130225118/)
