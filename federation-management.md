@@ -10,10 +10,12 @@ Services exist to create and destroy federations and to allow federates to join
 to, and resign from, those federations.
 
 ```mermaid
-C4Context
-    title Federation Lifecycle
+flowchart TD
+    state1[Named federation does not exist]
+    state2[Name federation exists]
 
-    System(Federation)
+    state1-- create federation execution --->state2
+    state2-- destroy federation execution --->state1
 ```
 
 ## Synchronisation points
