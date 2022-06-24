@@ -9,6 +9,13 @@ management:
 Services exist to create and destroy federations and to allow federates to join
 to, and resign from, those federations.
 
+```mermaid
+C4Context
+    title Federation Lifecycle
+
+    System(Federation)
+```
+
 ## Synchronisation points
 
 Synchonisation points serve, as their name implies, to synchronise, or
